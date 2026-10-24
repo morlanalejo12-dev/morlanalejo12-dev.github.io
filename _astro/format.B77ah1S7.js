@@ -1,0 +1,1 @@
+var e=(e,t)=>e.replace(/\{(\w+)\}/g,(e,n)=>n in t?String(t[n]):e),t=(t,n,r)=>r===1?t:e(n,{n:r});export{e as n,t};
